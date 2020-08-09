@@ -2,7 +2,7 @@
 
 .row {
     max-width: $grid-width;
-    background-color: #eee;
+
     // centers block element inside of another block element
     margin: 0 auto;
 
@@ -17,7 +17,7 @@
     // [] lets you select an element by an attribute value
     // ^= defines a starts with condition
     [class^="col-"] {
-        background-color: lightcoral;
+
         float: left;
 
         &:not(:last-child) {
@@ -33,6 +33,8 @@
 
     .col-1-of-3 {
         width: calc((100% - 2 * #{$gutter-horizontal}) / 3);
+
+
     }
 
     .col-2-of-3 {
