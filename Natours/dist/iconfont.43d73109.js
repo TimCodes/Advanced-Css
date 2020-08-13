@@ -184,12 +184,12 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":"../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"sass/main.scss":[function(require,module,exports) {
+},{"./bundle-url":"../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"css/iconfont.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./..\\img\\hero.jpg":[["hero.3ad8264a.jpg","img/hero.jpg"],"img/hero.jpg"],"./..\\img\\nat-4.jpg":[["nat-4.e9f66017.jpg","img/nat-4.jpg"],"img/nat-4.jpg"],"_css_loader":"../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./fonts\\linea-basic-10.eot":[["linea-basic-10.8de48deb.eot","css/fonts/linea-basic-10.eot"],"css/fonts/linea-basic-10.eot"],"./fonts\\linea-basic-10.woff":[["linea-basic-10.7e8f7e0f.woff","css/fonts/linea-basic-10.woff"],"css/fonts/linea-basic-10.woff"],"./fonts\\linea-basic-10.ttf":[["linea-basic-10.1b698338.ttf","css/fonts/linea-basic-10.ttf"],"css/fonts/linea-basic-10.ttf"],"./fonts\\linea-basic-10.svg":[["linea-basic-10.8e270702.svg","css/fonts/linea-basic-10.svg"],"css/fonts/linea-basic-10.svg"],"_css_loader":"../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -394,4 +394,4 @@ function hmrAcceptRun(bundle, id) {
   }
 }
 },{}]},{},["../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js"], null)
-//# sourceMappingURL=/main.07544d9b.js.map
+//# sourceMappingURL=/iconfont.43d73109.js.map

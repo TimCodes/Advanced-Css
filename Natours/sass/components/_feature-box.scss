@@ -1,0 +1,28 @@
+.feature-box {
+    background-color: rgba($color: $color-white, $alpha: .8);
+    font-size: 1.5rem;
+    padding: 2.5rem;
+    text-align: center;
+    box-shadow: 0 1.5rem 4rem rgba($color: $color-black, $alpha: .15);
+    transition: transform .1s;
+
+
+    &__icon {
+        font-size: 6rem;
+        margin-bottom: .5rem;
+        display: inline-block;
+        background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
+        // clips backorund to just text
+        -webkit-background-clip: text;
+        // then sett color to transparent and text will have gradient effect 
+        color: transparent;
+        letter-spacing: .2rem;
+    }
+
+    &:hover {
+        transform: translateY(-1.5rem) scale(1.03);
+    }
+
+
+
+}
