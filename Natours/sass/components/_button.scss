@@ -49,6 +49,16 @@
         }
     }
 
+    &--green {
+        background-color: $color-primary;
+        color: $color-white;
+        padding: 1.5rem 4rem;
+
+        &::after {
+            background-color: $color-primary;
+        }
+    }
+
     /* 
       create btn element that mirrors orginal btn element
       but sits behind it, so when you hover out it goes back 

@@ -11,24 +11,26 @@
   considered a best practice
 */
 
-@import './abstracts/functions';
-@import './abstracts/mixins';
-@import './abstracts/variables';
+@import "./abstracts/functions";
+@import "./abstracts/mixins";
+@import "./abstracts/variables";
 
-@import './base/base';
-@import './base/animations';
-@import './base/typography';
-@import './base/utils';
+@import "./base/base";
+@import "./base/animations";
+@import "./base/typography";
+@import "./base/utils";
 
-@import './layout/header';
-@import './layout/grid';
+@import "./layout/header";
+@import "./layout/grid";
 
-@import './pages/home.scss';
+@import "./pages/home.scss";
 
-@import './components/button';
-@import './components/composition';
-@import './components/feature-box';
-/* 
+@import "./components/button";
+@import "./components/composition";
+@import "./components/feature-box";
+@import "./components/card";
+@import "./components/story";
+@import "./components/_bg-video"; /* 
   REM Units are all scaled 
   accordin to root font size
   or html font size.
