@@ -1,22 +1,40 @@
 *,
 *::after,
 *::before {
-    margin: 0;
-    padding: 0;
-    box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
 }
 
 /* 
   use percentages here
   so user can change 
   default font size
+
+  standard default font size = 16px
 */
 
 html {
-    font-size: 62.5%;
+  // this defines what 1rem is
+  // default 1rem === 10px
+  font-size: 62.5%;
+
+  // order matters here
+  @include respond(tab-land) {
+    font-size: 56.3%; // 1rem = 9px, 9/16 = %56.3
+  }
+
+  // want the smallest media query to have precidence
+  @include respond(tab-port) {
+    font-size: 50%; // 1rem = 8px, 8/16 = %50
+  }
+
+  @include respond(big-desktop) {
+    font-size: 75%; // 1rem = 12px, 12/16 =75%
+  }
 }
 
 body {
-    box-sizing: border-box;
-    height: 1000px;
+  box-sizing: border-box;
+  height: 1000px;
 }
