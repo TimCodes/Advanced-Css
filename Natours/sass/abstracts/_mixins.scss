@@ -31,6 +31,8 @@
     // ems best for break points  em = px / 16
 
     1em = 16px
+
+    ORDER : BASE, TYPOGRAPHY, LAYOUT, PAGE LAYOUT, COMPONENTS
 */
 @mixin respond($breakpoint) {
   @if ($breakpoint == phone) {

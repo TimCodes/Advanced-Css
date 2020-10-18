@@ -37,4 +37,10 @@ html {
 body {
   box-sizing: border-box;
   height: 1000px;
+  padding: 3rem;
+
+
+ @include respond(tab-port) {
+   padding: 0;
+  }
 }
