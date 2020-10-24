@@ -6,6 +6,9 @@
     box-shadow: 0 1.5rem 4rem rgba($color: $color-black, $alpha: .15);
     transition: transform .1s;
 
+    @include respond(tab-port){
+        padding: 2rem;
+    }
 
     &__icon {
         font-size: 6rem;
@@ -17,6 +20,10 @@
         // then sett color to transparent and text will have gradient effect 
         color: transparent;
         letter-spacing: .2rem;
+
+        @include respond(tab-port){
+           margin: 0;
+        }
     }
 
     &:hover {
